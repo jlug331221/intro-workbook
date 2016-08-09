@@ -11,10 +11,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
+}
+
+main {
+    height: 324px;
+    width: 850px;
+    background-color: #CCC;
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
