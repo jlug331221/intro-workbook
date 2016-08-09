@@ -1,6 +1,17 @@
+body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #404040;
+    padding: 6px;
+    width: 32%;
+    color: white;
+}
+
 h1 {
     color: white;
-    font-family: Arial;
     font-size: 5em;
 }
 
@@ -18,10 +29,41 @@ main {
     height: 324px;
     width: 850px;
     background-color: #CCC;
+    display: flex;
+}
+
+section {
+    margin-left: 30px;
+    width: 270px;
+}
+
+section > h2 {
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+section input {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: .5em;
+    padding: 0;
 }
 
 .container {
+    font-family: Arial;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.form-input-name {
+    height: 22px;
+    width: 85%;
+}
+
+.form-input-message {
+    height: 60px;
+    width: 85%;
 }
